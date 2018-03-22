@@ -152,5 +152,5 @@ features = [6,7,9,10,13,18] # 6 features
 datamatrix = make_datamatrix(rawdata, features, 5, 1);
 datamatrix = np.array(datamatrix);
 
-linear_regression(rawdata, datamatrix, 5, 1, 10, 10000);
+linear_regression(rawdata, datamatrix, 5, 1, 10, 100000);
 #linear_regression_lambda(rawdata, datamatrix, 9, 1, 10, 10000, 1)
