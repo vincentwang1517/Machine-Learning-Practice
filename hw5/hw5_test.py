@@ -78,7 +78,7 @@ if __name__ == '__main__':
 
     input_ = TextTest.Word2vec(data, time_step);
 
-    RNN_model = load_model('rp4best.h5');
+    RNN_model = load_model(sys.argv[3]);
     print(RNN_model.summary());
 
     print('--- Predict ---');
