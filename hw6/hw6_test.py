@@ -69,6 +69,7 @@ if __name__ == '__main__':
 
 	modelname = 'rp1_100best.h5';
 	model = load_model(modelname);
+	print(model.summary());
 
 	print('--- Predict ---');
 	pred = model.predict([user, movie]);
